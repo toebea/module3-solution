@@ -1,0 +1,98 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+}
+
+.navbar-default .navbar-brand { /* Forcing the Menu title border to be black */
+    color: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar { /* Forcing the Menu title background to be black */
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #C0C0C0;
+	border-radius: 0;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.navbar-brand { /* Food, LLC - Name*/
+	font-size: 3em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+/* Effects when hovering the mouse on the "Food, LLC" tile - the restaurant's brand */
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+/* Adds color to the "hamburguer" button when hover or clicked! */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFFFE7;
+}
+
+
+/* Adds some borders around the buttons */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #000000;
+	/*padding-top: 2px;*/
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -55px;
+}
+
+#nav-list {
+  margin-top: 0px;
+  color: black;
+  background-color: #FFFFE7;
+  font-size: 1.7em;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  padding-top: 0px;
+  line-height: 15px;
+}
+#nav-list a:hover {
+  background: #FFFF9B;
+}
+
+li.divider {
+	border-top: 2px solid #000;
+}
+
+#menu-categories-title {
+	margin-top: 0;
+	font-size: 3em;
+}
+
+#menu-item-title {
+	padding-top: 5px;
+	font-size: 1.8em;
+}
+
+.menu-item-description {
+	background-color: #E6D6E4;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 90%;
+}
+
+.menu-item-details { /* Text - Menu description */
+	font-size: 1.1em;
+}
